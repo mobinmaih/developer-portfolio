@@ -43,6 +43,9 @@
 .primary-bg{
     background-color: #FFF8F3;
 }
+.text-center{
+    text-align: center;
+}
 main{
     max-width: 1140px;
     margin: 0 auto;
@@ -124,4 +127,9 @@ nav ul li a{
 .item-desc{
     font-size: 20px;
     font-weight: 700;
+}
+/* skills styles */
+.skills-container{
+    display: flex;
+    justify-content: space-around;
 }
