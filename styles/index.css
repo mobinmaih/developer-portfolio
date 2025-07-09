@@ -64,7 +64,7 @@ section{
 }
 .section-desc{
     font-size: 18px;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     /* width: 900px; */
 }
   /* nav styles */
@@ -140,6 +140,9 @@ nav ul li a{
     margin: 50px 0;
     /* align-items: center; */
 }
+.skills p{
+    margin: 0 140px;
+}
 .skill{
     padding: 30px;
     border-radius: 10px;
@@ -179,4 +182,23 @@ nav ul li a{
 }
 .experience-desc{
     font-size: 16px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+form input[type="text"], footer input[type="email"], footer textarea{
+    display: block;
+    height: 65px;
+    border-radius: 10px;
+    border: none;
+    background: #fff;
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 20px;
+    padding: 20px;
 }
